@@ -1,0 +1,69 @@
+body {
+  background-image: url("bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+  font-family: 'Open Sans', sans-serif;
+
+}
+h1 {
+font-family: 'Poppins', sans-serif;
+color: white;
+padding-top: 20px;
+}
+p {
+  color: #d9d9d9;
+  padding: 20px;
+}
+.container {
+
+  margin:40px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.illustration {
+  width: 50%;
+  float:left;
+  margin-right: 50px;
+}
+.btn {
+  border-radius: 40px;
+  padding: 10px 50px;
+}
+.btn:hover{
+  background-color: hsl(300, 69%, 71%);
+}
+.logo {
+padding: 5% 5%;
+}
+footer {
+  padding: 100px 100px 30px;
+  text-align: right;
+  font-size: 2.5rem;
+}
+.footer-items {
+  margin:20px 10px;
+  color: white;
+}
+.footer-items:hover {
+  color: hsl(300, 69%, 71%);
+}
+
+
+@media (max-width:1028px){
+  h1 {
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    padding-top: 2px;
+  }
+  .logo {
+  text-align: center;
+  }
+  .illustration {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
